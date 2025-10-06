@@ -1,44 +1,46 @@
 # TFSE-SmartLighting
 
-Repository associata all'articolo:
+Repository associated with the paper:
 
 **Alessandro Casavola, Giuseppe Franzè, Gianfranco Gagliardi, Francesco Tedesco**, *"Multi-Agent Sensor Fusion for Smart Urban Lighting: A Trust-Based Estimation Approach"*, IFAC JC3 2025, Padua (Italy), September 2025.
 
-> Questa repository contiene il codice e i materiali a supporto dello studio su una strategia di **sensor fusion multi‑agente** con meccanismo di **stima basata sulla fiducia** per l'illuminazione urbana intelligente.
+> This repository contains code and materials supporting a **multi‑agent sensor fusion** strategy with a **trust‑based estimation** mechanism for smart urban lighting.
 
-## Struttura
-La struttura attuale proviene dall'archivio sorgente (`J3C.zip`). Eventuali cartelle principali individuate sono state mantenute. Se necessario, proponi modifiche/riorganizzazione in una issue.
+## Contents
+The current layout comes from the original source archive (`J3C.zip`). Main folders have been preserved as provided.
 
-## Requisiti
-- Dipendenze specifiche elencate nei rispettivi file di progetto (ad es. `requirements.txt` per Python o path/toolbox per MATLAB).
+Key top‑level files:
+- `README.md` (Italian) and `README_EN.md` (this file)
+- `.gitattributes` (Git LFS rules for large/binary MATLAB/Simulink assets)
+- `.gitignore`, `LICENSE`, `CITATION.cff`
+- Project scripts and models (MATLAB/Simulink)
 
-## Esecuzione (indicativa)
-1. Clona o scarica la repository.
-2. Segui le istruzioni nella directory relativa agli esperimenti (ad es. script `.m` per MATLAB o notebook/script Python).
-3. Per riprodurre le figure principali, consulta la sezione **Notebooks** o **Scripts** (se presenti).
+## Requirements
+- MATLAB/Simulink (toolboxes as required by the provided models/scripts).
+- If you plan to push or pull this repository, **Git LFS** is recommended to handle `.mat`, `.slx`, `.slxc`, `.fig`, `.eps` files.
 
-## Citazione
-Se utilizzi questo codice, cita il lavoro come segue (BibTeX di esempio da completare con anno/DOI):
+## How to run (indicative)
+1. Clone or download the repository.
+2. Follow instructions inside the experiment folders (e.g., `.m` scripts or Simulink models).
+3. For figure reproduction, check **Scripts**/**Notebooks** (if present).
 
+## Citation
+If you use this code, please cite the work (BibTeX to be completed with year/DOI):
 
 ```
-@article{{CasavolaEtAl-TFSE-SmartLighting,
-  author  = {{Casavola}, Alessandro and {{Franzè}}, Giuseppe and {{Gagliardi}}, Gianfranco and {{Tedesco}}, Francesco},
-  title   = {{Multi-Agent Sensor Fusion for Smart Urban Lighting: A Trust-Based Estimation Approach}},
-  journal = {{IFAC JC3}},
-  year    = {{2025}},
-  doi     = {{}}
-}}
+@article{CasavolaEtAl-TFSE-SmartLighting,
+  author  = {Casavola, Alessandro and Franzè, Giuseppe and Gagliardi, Gianfranco and Tedesco, Francesco},
+  title   = {Multi-Agent Sensor Fusion for Smart Urban Lighting: A Trust-Based Estimation Approach},
+  journal = {IFAC JC3},
+  year    = {2025},
+  doi     = {DOI-TBD}
+}
 ```
 
-In alternativa, usa il file `CITATION.cff` (GitHub genererà automaticamente il formato di citazione).
+Alternatively, use `CITATION.cff` (GitHub will auto-generate citation formats).
 
-## Licenza
-Vedi [`LICENSE`](LICENSE). (Attualmente **MIT**; cambiala se necessario.)
+## License
+See [`LICENSE`](LICENSE). Currently **MIT** (feel free to change if needed).
 
-## Contatti
-Per domande o problemi, apri una issue oppure contatta uno degli autori.
-
----
-
-> *Questa README è stata generata automaticamente a partire dall’archivio fornito.*
+## Contact
+For questions or issues, please open an issue on GitHub or reach out to the authors.

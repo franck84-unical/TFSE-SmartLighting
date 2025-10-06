@@ -2,7 +2,7 @@
 
 Repository associata all'articolo:
 
-**Alessandro Casavola, Giuseppe Franzè, Gianfranco Gagliardi, Francesco Tedesco**, *"Multi-Agent Sensor Fusion for Smart Urban Lighting: A Trust-Based Estimation Approach"*, IFAC JC3.
+**Alessandro Casavola, Giuseppe Franzè, Gianfranco Gagliardi, Francesco Tedesco**, *"Multi-Agent Sensor Fusion for Smart Urban Lighting: A Trust-Based Estimation Approach"*, IFAC JC3 2025, Padua (Italy), September 2025.
 
 > Questa repository contiene il codice e i materiali a supporto dello studio su una strategia di **sensor fusion multi‑agente** con meccanismo di **stima basata sulla fiducia** per l'illuminazione urbana intelligente.
 
@@ -26,8 +26,8 @@ Se utilizzi questo codice, cita il lavoro come segue (BibTeX di esempio da compl
   author  = {{Casavola}, Alessandro and {{Franzè}}, Giuseppe and {{Gagliardi}}, Gianfranco and {{Tedesco}}, Francesco},
   title   = {{Multi-Agent Sensor Fusion for Smart Urban Lighting: A Trust-Based Estimation Approach}},
   journal = {{IFAC JC3}},
-  year    = {{YYYY}},
-  doi     = {{DOI-DA-INSERIRE}}
+  year    = {{2025}},
+  doi     = {{}}
 }}
 ```
 
